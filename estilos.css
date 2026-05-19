@@ -1,0 +1,124 @@
+
+*{margin: 0px;
+  padding: 0px;
+}
+  body {
+    background: #F2D88F;
+    font-family: Gabriola , Georgia;
+    font-size: 20px;
+    color :#005479;
+  }
+    
+    
+    #container {
+      width: 70%;
+      margin: 0px auto;
+      
+    }
+    header {
+      background: #E36888;
+      height: 100px;
+      width: 100%;
+      text-align: center;
+      line-height: 100px;
+      color: #F2D88F;}
+
+      nav ul {list-style: none;
+    text-align: center;
+    }
+  
+  
+     
+    nav ul li {
+      float: left; 
+      list-style: none;
+      margin: 0 10px;
+      
+      
+      }
+      
+      nav ul li a {
+        color: #E3F0A3;
+        text-decoration: none;
+        Font-family: MV Boli , georgia;
+        }
+      
+    .clearclass {
+      clear: both;
+      }
+      
+      nav {
+        background: #B4B534;
+        height: 50px;
+        border-bottom: 2px solid #A8A70E;
+        border-top: 2px solid #A8A70E;
+        color: #F2D88F;
+      
+        }
+        
+        #contenido {
+          float: left;
+          width: 100%;
+          background: #77CBDA;
+          min-height: 500px;
+          }
+        footer {
+          background: #04B79D; 
+          color: #027F71;
+          text-align: center;
+          height: 50px;
+          line-height: 50px;
+          clear: both;
+          }
+
+#contenido ul li::marker {
+    color: #005479; 
+    
+}
+          #contenido ul li 
+           {
+            list-style: square;
+              list-style-position: inside;
+              lighting-color: 005479;
+          }
+          
+#contenido ul li a {
+    font-size: 30px;
+    color: #005479;             
+    text-decoration: none;
+}
+        
+
+/* Esta sola regla le dará el mismo tamaño a TODAS las fotos que metas en tu galería */
+.galeria-fotos img {
+     width: 350px;       
+    height: 300px;      
+    object-fit: cover;  
+    object-position: center; 
+    margin: 10px;  
+    border-radius: 10px;
+    display: flex;       
+    flex-wrap: wrap;     
+    justify-content: center; 
+    padding: 20px;
+
+
+}
+
+.fotos_inicio {
+    display: flex;
+    justify-content: center; 
+    clear: both;        
+    width: 100%;        
+    padding-top: 20px;  
+    padding-bottom: 20px; 
+}
+
+
+.fotos_inicio img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px; 
+}
+
+
